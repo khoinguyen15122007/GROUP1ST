@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GROUP1PAGE</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #00c6ff, #0072ff); /* Nền gradient màu xanh bắt mắt */
+            color: #fff; /* Chữ màu trắng */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .container {
+            background: rgba(0, 0, 0, 0.6); /* Nền tối nhẹ để làm nổi bật nội dung */
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.4); /* Bóng đổ nhẹ */
+            max-width: 800px;
+            width: 100%;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .container:hover {
+            transform: scale(1.05); /* Hiệu ứng phóng to nhẹ khi hover vào container */
+        }
+
+        h1 {
+            font-size: 3em;
+            color: #ffcc00; /* Màu vàng cho tiêu đề */
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .intro {
+            margin-bottom: 30px;
+        }
+
+        .intro h2 {
+            font-size: 2em;
+            margin-bottom: 10px;
+            color: #fff;
+        }
+
+        .member-list {
+            list-style: none;
+            padding: 0;
+            font-size: 1.5em;
+            margin-bottom: 30px;
+        }
+
+        .member-list li {
+            margin: 10px 0;
+            transition: color 0.3s ease, transform 0.3s ease;
+        }
+
+        .member-list li:hover {
+            color: #ffcc00; /* Màu vàng khi hover vào tên thành viên */
+            cursor: pointer;
+            transform: scale(1.1); /* Hiệu ứng phóng to nhẹ khi hover vào tên */
+        }
+
+        .page-fb88 {
+            font-size: 1.5em;
+            color: #ffcc00;
+            background-color: #333;
+            padding: 15px 30px;
+            border-radius: 50px;
+            text-decoration: none;
+            display: inline-block;
+            transition: background-color 0.3s ease, transform 0.3s ease;
+        }
+
+        .page-fb88:hover {
+            background-color: #ffcc00; /* Chuyển màu nền thành vàng khi hover vào */
+            color: #333; /* Chữ đổi thành màu tối khi hover vào */
+            transform: scale(1.1); /* Hiệu ứng phóng to nhẹ khi hover */
+        }
+
+        footer {
+            margin-top: 40px;
+            color: #fff;
+            font-size: 1em;
+        }
+
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>GROUP1PAGE</h1>
+
+        <div class="intro">
+            <h2>Giới thiệu thành viên:</h2>
+            <ul class="member-list">
+                <li><a href="https://khoinguyen15122007.github.io/KHOINGUYENGROUP1/" target="_blank">PHAM KHOI NGUYEN</a></li>
+                <li><a href="https://khoinguyen15122007.github.io/XUANVINHHGROUP1/" target="_blank">TRAN MINH XUAN VINH</a></li>
+                <li><a href="https://khoinguyen15122007.github.io/HONGTHIGROUP1/" target="_blank">NGUYEN THI HONG THI</a></li>
+            </ul>
+        </div>
+
+        <a href="https://khoinguyen15122007.github.io/nhacaifb88/" class="page-fb88" target="_blank">PAGE FB88</a>
+
+        <footer>
+            <p>&copy; 2024 GROUP1PAGE. All rights reserved.</p>
+            <p>Liên hệ: <a href="mailto:khoinguyen15122007@gmail.com">khoinguyen15122007@gmail.com</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
